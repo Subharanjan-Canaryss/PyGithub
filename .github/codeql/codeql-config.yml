@@ -7,5 +7,5 @@ queries:
   # we include both even though one is a superset of the
   # other, because we're testing the parsing logic and
   # that the suites exist in the codeql bundle.
-  - uses: security-extended
+  - uses: github/codeql/javascript/ql/src/Security/CWE-798/HardcodedCredentials.ql@main
 #   - uses: security-and-quality
